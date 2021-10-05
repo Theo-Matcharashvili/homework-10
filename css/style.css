@@ -1,0 +1,62 @@
+section{
+	overflow: hidden;
+}
+.title{
+	background-color: #0A22F4;
+	height: 308px;
+}
+.title h2{
+	color: #FFFFFF;
+	font-size: 32px;
+	padding: 70px 0 200px 240px;
+}
+.projects-container{
+	display: flex;
+	transform: translateX(240px);
+	margin-top: -120px;
+}
+.projects-container img{
+	width: 370px;
+	position: relative;
+}
+.projects-container .second-project{
+	margin-top: -50px;
+	position: relative;
+}
+.margin-left{
+	margin-left: 30px;
+}
+.project{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.projects-container p{
+	position: absolute;
+	color: #171717;
+	bottom: 10px;
+	width: 310px;
+	padding: 20px;
+	background-color: white;
+	opacity: 75%;
+}
+.second-project{
+	display: flex;
+	justify-content: center;
+}
+.second-project p{
+	position: absolute;
+	color: #171717;
+	bottom: 50px;
+	width: 250px;
+	opacity: 75%;
+}
+.more{
+	display: flex;
+	justify-content: flex-end;
+	margin: 80px 240px 0 0;
+	color: #171717;
+}
+
+
+
