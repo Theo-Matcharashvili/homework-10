@@ -8,6 +8,7 @@ section{
 .title h2{
 	color: #FFFFFF;
 	font-size: 32px;
+	font-family: 'Helvetica Neue Bold';
 	padding: 70px 0 200px 240px;
 }
 .projects-container{
@@ -39,6 +40,7 @@ section{
 	padding: 20px;
 	background-color: white;
 	opacity: 75%;
+	font-family: 'Helvetica Neue Regular';
 }
 .second-project{
 	display: flex;
@@ -50,12 +52,14 @@ section{
 	bottom: 50px;
 	width: 250px;
 	opacity: 75%;
+	font-family: 'Helvetica Neue Regular';
 }
 .more{
 	display: flex;
 	justify-content: flex-end;
-	margin: 80px 240px 0 0;
+	margin: 80px 240px 10px 0;
 	color: #171717;
+	font-family: 'Helvetica Neue Bold';
 }
 
 
