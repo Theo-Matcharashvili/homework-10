@@ -1,3 +1,7 @@
+body{
+	max-width: 1920px;
+	width: 100%;
+}
 section{
 	overflow: hidden;
 }
@@ -52,7 +56,7 @@ section{
 	bottom: 50px;
 	width: 250px;
 	opacity: 75%;
-	font-family: 'Helvetica Neue Regular';
+	font-family: 'Helvetica Neue Bold';
 }
 .more{
 	display: flex;
@@ -61,6 +65,59 @@ section{
 	color: #171717;
 	font-family: 'Helvetica Neue Bold';
 }
+.section2 {
+	width: 1390px;
+	margin: 0 auto;
 
-
-
+}
+.title-partners{
+	display: flex;
+	justify-content: space-between;
+	margin: 370px 0 60px 0;
+}
+.h2-partners{
+	width: 226px;
+}
+.h2-partners h2 {
+	font-family: 'Helvetica Neue Bold';
+	font-size: 32px;
+}
+.dots{
+	width: 70px;
+}
+.darkdot{
+	width: 10px;
+	height: 10px;
+	background-color: #0A22F4;
+	border-radius: 50%;
+	display: inline-block;
+}
+.lightdot{
+	width: 10px;
+	height: 10px;
+	background-color: #0A22F4;
+	border-radius: 50%;
+	opacity: 0.3;
+	display: inline-block;
+}
+.div-partners{
+	display: flex;
+	justify-content: space-between;
+}
+.text-partners {
+	width: 463px;	
+}
+.text-partners p {
+	font-family: 'Helvetica Neue Regular';
+	font-size:16px ;
+}
+.span-partners{
+	color: #0A22F4;
+}
+.img-partners{
+	width: 710px;
+}
+.partners-img{
+	width: 219px;
+	height: 82px;
+}
